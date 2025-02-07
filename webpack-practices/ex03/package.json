@@ -1,0 +1,22 @@
+{
+  "name": "ex03",
+  "version": "1.0.0",
+  "description": "#### 1. Project  1. 초기화",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npx webpack serve  --progress",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  output: {
+    path: path.resolve('public'),
+    filename: 'assets/js/main.js'
+  }
+}

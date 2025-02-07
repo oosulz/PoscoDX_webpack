@@ -1,0 +1,25 @@
+{
+  "name": "webpack-practices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oosulz/PoscoDX_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oosulz/PoscoDX_webpack/issues"
+  },
+  "homepage": "https://github.com/oosulz/PoscoDX_webpack#readme",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
